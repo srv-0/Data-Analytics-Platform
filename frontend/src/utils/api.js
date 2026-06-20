@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const api = axios.create({ baseURL: import.meta.env.VITE_API_URL || '/api' })
+const api = axios.create({ baseURL: 'https://data-analytics-platform-nfoz.onrender.com' || '/api' })
 
 export const uploadCSV = (file) => {
   const form = new FormData()
