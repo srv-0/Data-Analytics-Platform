@@ -6,7 +6,7 @@ app = FastAPI(title="ML Analytics API", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173","https://data-analytics-platform-4wukglpxh.vercel.app/", "http://localhost:3000"],
+    allow_origins=["http://localhost:5173","https://data-analytics-platform-six.vercel.app", "http://localhost:3000"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
