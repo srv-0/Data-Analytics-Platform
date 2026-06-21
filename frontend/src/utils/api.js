@@ -1,7 +1,5 @@
 import axios from 'axios'
 
-import axios from 'axios'
-
 const api = axios.create({ 
   baseURL: 'https://data-analytics-platform-nfoz.onrender.com',
   timeout: 60000
